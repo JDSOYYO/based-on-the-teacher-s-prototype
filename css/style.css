@@ -1,0 +1,98 @@
+@import 'reset.css';
+@import 'basic.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'layout.css';
+@import 'text.css';
+@import 'grid.css';
+
+
+ /* barra de navegación */
+
+
+.navbar-main ul {
+    display: flex;
+    color: rgb(71, 71, 71);
+    background-color: azure;    
+}
+
+.navbar-main li {
+    margin-right: .5em;      
+}
+
+.navbar-main li:last-child {
+    margin-right: 0;
+}
+
+.navbar-main a {
+    color: black;
+}
+
+.navbar-main a:hover {
+    text-decoration: underline;
+}
+
+.navbar-main .split {
+    color: rgb(136, 136, 136);
+}
+
+section {
+    
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+aside {
+}
+
+img {
+    object-fit: none;
+}
+
+
+/* main */
+/*.main-home {
+    display: flex;
+}*/
+
+
+/* section */
+/*.main-home section {
+    width: 70%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-50px;
+}
+
+.main-home section img {
+    width: 100%;
+    height: auto;
+}
+
+.receta-full {
+    background-color: hotpink;
+    width: calc(50% - 50px);
+    margin-left: 50px;
+    margin-bottom: 5px;
+
+}*/
+
+/*.receta-full:nth-child(2n+1) {
+    margin-right: 0;
+}*/
+
+
+
+
+
+
+/* aside */
+
+/*.main-home aside {
+    width: 30%;
+    background-color: red;
+}*/
